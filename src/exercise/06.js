@@ -19,17 +19,17 @@ function UsernameForm({onSubmitUsername, onSubmitAddress, onSubmitCompany}) {
   // 💰 For example: event.target.elements[0].value
   // 🐨 Call `onSubmitUsername` with the value of the input
 
-  const handleSubmit = event => {
-    event.preventDefault()
+  // const handleSubmit = event => {
+  //   event.preventDefault()
 
-    onSubmitUsername(event.target.elements.username.value)
-  }
+  //   onSubmitUsername(event.target.elements.username.value)
+  // }
 
-  const handleSubmitRef = event => {
-    event.preventDefault()
+  // const handleSubmitRef = event => {
+  //   event.preventDefault()
 
-    onSubmitAddress(inputElement.current.value)
-  }
+  //   onSubmitAddress(inputElement.current.value)
+  // }
 
   const handleSubmitControlled = event => {
     event.preventDefault()
